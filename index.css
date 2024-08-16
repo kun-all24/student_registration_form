@@ -1,0 +1,144 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+    font-family: garamond;
+}
+
+header {
+    background-image: linear-gradient(to right, #8e2de2, #4a00e0);
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+main {
+    padding: 1rem;
+}
+
+#form-section{
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin: 0.5rem 0 0.2rem 0;
+}
+
+input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 50%;
+}
+
+#form-section form button{
+    width: 50%;
+}
+
+button {
+    background-color:  #4a00e0;
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #876e9c;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #ffffff;
+}
+
+@media (max-width: 768px) {
+    body {
+        font-size: 0.9rem;
+    }
+
+    header {
+        padding: 0.5rem;
+    }
+
+    main {
+        padding: 0.5rem;
+    }
+
+    label, input, button {
+        font-size: 0.9rem;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    button {
+        padding: 0.4rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        font-size: 1.2rem;
+    }
+
+    label, input, button {
+        font-size: 0.8rem;
+    }
+
+    th, td {
+        padding: 4px;
+    }
+
+    button {
+        padding: 0.3rem;
+    }
+
+    form {
+        padding: 0.5rem;
+    }
+    
+    table, th, td {
+        font-size: 0.8rem;
+    }
+}
